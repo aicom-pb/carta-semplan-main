@@ -1,0 +1,1338 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prefeitura de Pimenta Bueno - SEMPLAN</title>
+    <meta name="description" content="Secretaria Municipal de Planejamento, Gestão e Coordenação Geral da Prefeitura de Pimenta Bueno - RO. Informações sobre departamentos, competências e atendimento ao cidadão.">
+    <meta name="author" content="Prefeitura de Pimenta Bueno">
+    
+    <link rel="icon" type="image/png" href="assets/images/brasao.png">
+    
+    <meta property="og:title" content="Prefeitura de Pimenta Bueno - SEMPLAN">
+    <meta property="og:description" content="Secretaria Municipal de Planejamento, Gestão e Coordenação Geral da Prefeitura de Pimenta Bueno - RO">
+    <meta property="og:type" content="website">
+    
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+    
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="header-background-image"></div>
+        <div class="container">
+            <div class="header-content">
+                <div class="header-title-section">
+                    <div class="header-icon-title">
+                        <div class="header-icon">
+                            <img src="assets/images/brasao.png" alt="Brasão da Prefeitura" style="width: 2.5rem; height: 2.5rem;">
+                        </div>
+                        <div>
+                            <h1>PREFEITURA DO MUNICÍPIO DE PIMENTA BUENO</h1>
+                            <p class="header-subtitle">SEMPLAN - CARTA DE SERVIÇOS</p>
+                        </div>
+                    </div>
+                    
+                    <div class="main-cta">
+                        <p class="cta-text">Acesse nossas redes sociais e site da prefeitura:</p>
+                        <div class="cta-buttons">
+                            <a href="https://pimentabueno.ro.gov.br/site/" target="_blank" class="cta-button">
+                                <img src="assets/images/site.svg" alt="Ícone Site" class="cta-svg-icon">
+                                Site Oficial
+                            </a>
+                            <a href="https://www.facebook.com/PrefeituradePimentaBueno" target="_blank" class="cta-button">
+                                <img src="assets/images/facebook.svg" alt="Ícone Facebook" class="cta-svg-icon">
+                                Facebook
+                            </a>
+                            <a href="https://www.instagram.com/prefeiturapb/" target="_blank" class="cta-button">
+                                <img src="assets/images/instagram.svg" alt="Ícone Instagram" class="cta-svg-icon">
+                                Instagram
+                            </a>
+                            <a href="https://www.youtube.com/@PrefeituradePimentaBueno" target="_blank" class="cta-button">
+                                <img src="assets/images/youtube.svg" alt="Ícone YouTube" class="cta-svg-icon">
+                                YouTube
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-grid">
+                    <div class="contact-item">
+                        <i data-lucide="map-pin"></i>
+                        <a href="https://www.google.com/maps/search/?api=1&query=Avenida+Castelo+Branco,1046,+Pioneiros,+Pimenta+Bueno,+RO" target="_blank" class="map-link">
+                            <span>Avenida Castelo Branco, 1046, Bairro: Pioneiros, CEP: 76970-000</span>
+                        </a>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <a href="https://wa.me/5569981630011" target="_blank" class="whatsapp-link">
+                            <img src="assets/images/whatsapp-icon.svg" alt="WhatsApp Icon" class="whatsapp-svg-icon">
+                            <span>(69) 98163-0011</span>
+                        </a>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i data-lucide="mail"></i>
+                        <a href="mailto:semplan@pimentabueno.ro.gov.br" class="mail-link">
+                            <span>semplan@pimentabueno.ro.gov.br</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="container">
+            <section id="semplan-sede" class="department-section">
+                <div class="department-card">
+                    <div class="card-header">
+                        <div class="card-header-content">
+                            <div class="card-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-building-2"><path d="M6 22V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v18Z"/><path d="M6 12H4a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h2"/><path d="M18 9h2a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2h-2"/><path d="M10 6h4"/><path d="M10 10h4"/><path d="M10 14h4"/><path d="M10 18h4"/></svg>
+                            </div>
+                            <div class="card-title-section">
+                                <h2 class="card-title">SEMPLAN: SEDE ADMINISTRATIVA</h2>
+                                <div class="card-director">
+                                    <i data-lucide="user"></i>
+                                    <span>Marcia de Figueiredo Soares</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="card-content">
+                        <div class="contact-info">
+                            <div class="contact-detail">
+                                <img src="assets/images/location.svg" alt="Ícone de Localização" class="contact-svg-icon">
+                                <a href="https://www.google.com/maps/search/?api=1&query=Avenida+Castelo+Branco,1046,+Pioneiros,+Pimenta+Bueno,+RO" target="_blank" class="map-link">
+                                    <span>Avenida Castelo Branco, 1046, Bairro: Pioneiros, CEP: 76970-000</span>
+                                </a>
+                            </div>
+                            <div class="contact-detail">
+                                <a href="https://wa.me/5569981630011" target="_blank" class="whatsapp-link">
+                                    <img src="assets/images/whatsapp-icon.svg" alt="WhatsApp Icon" class="whatsapp-svg-icon">
+                                    <span>(69) 98163-0011</span>
+                                </a>
+                            </div>
+                            <div class="contact-detail">
+                                <img src="assets/images/email.svg" alt="Ícone de E-mail" class="contact-svg-icon">
+                                <a href="mailto:semplan@pimentabueno.ro.gov.br" class="mail-link">
+                                    <span>semplan@pimentabueno.ro.gov.br</span>
+                                </a>
+                            </div>
+                            <div class="contact-detail">
+                                <img src="assets/images/clock.svg" alt="Ícone de Horário" class="contact-svg-icon">
+                                <span>Segunda a sexta-feira das 7:30 às 13:30</span>
+                            </div>
+                        </div>
+
+                        <div class="competencies">
+                            <h4>Atribuições do Secretário:</h4>
+                            <ul class="competencies-list">
+                                <li>A articulação e direcionamento das diretrizes e políticas definidas pelo Chefe do Poder Executivo municipal;</li>
+                                <li>A articulação e mediação do relacionamento político do Poder Executivo municipal com os membros do Poder Legislativo municipal;</li>
+                                <li>A articulação e mediação do relacionamento político do Poder Executivo municipal com os membros do Poder Executivo e Poder Legislativo estadual;</li>
+                                <li>A orientação da atuação política da liderança legislativa, representante do Poder Executivo na Câmara Municipal;</li>
+                                <li>A mediação do relacionamento entre auxiliares do Chefe do Poder Executivo municipal e destes junto ao Chefe do Poder Executivo municipal;</li>
+                                <li>A coordenação geral das ações políticas de governo;</li>
+                                <li>A prestação de assistência ao Chefe do Poder Executivo e a mediação de suas relações políticas com entidades públicas, privadas e público, no âmbito municipal;</li>
+                                <li>A coordenação do suporte financeiro, orçamentário e administrativo dos órgãos de assistência direta ao Prefeito e ao Vice-Prefeito;</li>
+                                <li>A assistência direta e imediata ao Prefeito na sua representação institucional e social, e o apoio protocolar nos atos públicos de que ele participa.</li>
+                            </ul>
+                            <h4>Estrutura Organizacional da SEMPLAN:</h4>
+                            <ul class="competencies-list">
+                                <li>Gabinete do Secretário</li>
+                                <li>Superintendência de Arquitetura, Engenharia e Topografia</li>
+                                <li>Superintendência de Planejamento, Orçamento e Monitoramento</li>
+                                <li>Superintendência de Desenvolvimento Urbano e Regularização Fundiária</li>
+                                <li>Coordenadoria de Obras e Posturas</li>
+                                <li>Coordenadoria de Elaboração de Projetos</li>
+                                <li>Central de Saneamento e Desenvolvimento Ambiental</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="desenvolvimento-urbano" class="department-section">
+                <div class="department-card">
+                    <div class="card-header">
+                        <div class="card-header-content">
+                            <div class="card-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-map"><path d="M14.106 5.553a2 2 0 0 0 1.788 0l3.659-1.83A1 1 0 0 1 21 4.619v12.764a1 1 0 0 1-.553.894l-4.553 2.277a2 2 0 0 1-1.788 0l-4.212-2.106a2 2 0 0 0-1.788 0l-3.659 1.83A1 1 0 0 1 3 19.381V6.618a1 1 0 0 1 .553-.894l4.553-2.277a2 2 0 0 1 1.788 0z"/><path d="M15 5.764v15"/><path d="M9 3.236v15"/></svg>
+                            </div>
+                            <div class="card-title-section">
+                                <h2 class="card-title">SUPERINTENDÊNCIA DE DESENVOLVIMENTO URBANO E REGULARIZAÇÃO FUNDIÁRIA</h2>
+                                <div class="card-director">
+                                    <i data-lucide="user"></i>
+                                    <span>Bruno Marcondes dos Santos</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="card-content">
+                        <div class="contact-info">
+                            <div class="contact-detail">
+                                <img src="assets/images/location.svg" alt="Ícone de Localização" class="contact-svg-icon">
+                                <a href="https://www.google.com/maps/search/?api=1&query=Avenida+Castelo+Branco,1046,+Pioneiros,+Pimenta+Bueno,+RO" target="_blank" class="map-link">
+                                    <span>Avenida Castelo Branco, 1046, Bairro: Pioneiros, CEP: 76970-000</span>
+                                </a>
+                            </div>
+                            <div class="contact-detail">
+                                <a href="https://wa.me/5569981699963" target="_blank" class="whatsapp-link">
+                                    <img src="assets/images/whatsapp-icon.svg" alt="WhatsApp Icon" class="whatsapp-svg-icon">
+                                    <span>(69) 98169-9963</span>
+                                </a>
+                            </div>
+                            <div class="contact-detail">
+                                <img src="assets/images/email.svg" alt="Ícone de E-mail" class="contact-svg-icon">
+                                <a href="mailto:sdu@pimentabueno.ro.gov.br" class="mail-link">
+                                    <span>sdu@pimentabueno.ro.gov.br</span>
+                                </a>
+                            </div>
+                            <div class="contact-detail">
+                                <img src="assets/images/clock.svg" alt="Ícone de Horário" class="contact-svg-icon">
+                                <span>Segunda a sexta-feira das 7:30 às 13:30</span>
+                            </div>
+                        </div>
+
+                        <div class="competencies">
+                            <h4>Competências:</h4>
+                            <ul class="competencies-list">
+                                <li>Coordenar, acompanhar e estudar as questões relativas à regularização fundiária do município;</li>
+                                <li>Propor e executar políticas e instrumentos de modernização administrativa na área fundiária;</li>
+                                <li>Auxiliar na Elaboração de projetos de Regularização Fundiária que forem competência do Município;</li>
+                                <li>Acompanhar e orientar no que couber a municipalidade, os Munícipes nos projetos particulares de Loteamentos;</li>
+                                <li>Acompanhar e organizar Consultas Prévias de Loteamentos e Loteamentos Definitivos;</li>
+                                <li>Acompanhar processos referentes à Regularização e Retificação de Quadras;</li>
+                                <li>Prestar assistência e orientar, controlando o desenvolvimento urbano das áreas urbanas e de expansão urbana;</li>
+                                <li>Averbar nos BICs (Boletins de Informação Cadastral dos Imóveis), as construções e transferências dos imóveis;</li>
+                                <li>Organizar, acompanhar e tramitar processos de escrituração;</li>
+                                <li>Emitir títulos de domínios, Certidões de Inteiros Teor de Títulos de Domínios, Certidões de Propriedade;</li>
+                                <li>Orientar os munícipes sobre áreas regulares e irregulares do município;</li>
+                                <li>Atualização e lançamento nos sistemas para cobrança de IPTU.</li>
+                            </ul>
+                            <h4>Serviços Prestados:</h4>
+                            <ul class="competencies-list">
+                                <li>Regularização fundiária</li>
+                                <li>Aprovação de loteamento</li>
+                                <li>Desmembramento</li>
+                                <li>Transferência de IPTU e Escritura</li>
+                                <li>Certidões imobiliárias</li>
+                                <li>Cadastro mobiliário</li>
+                                <li>Cadastro de contribuinte</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="obras-posturas" class="department-section">
+                <div class="department-card">
+                    <div class="card-header">
+                        <div class="card-header-content">
+                            <div class="card-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-hard-hat"><path d="M2 18h20"/><path d="M10 10V5a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v5"/><path d="M4 15v-3a6 6 0 0 1 6-6h0"/><path d="M14 6h0a6 6 0 0 1 6 6v3"/></svg>
+                            </div>
+                            <div class="card-title-section">
+                                <h2 class="card-title">COORDENADORIA DE FISCALIZAÇÃO DE OBRAS E POSTURAS</h2>
+                                <div class="card-director">
+                                    <i data-lucide="user"></i>
+                                    <span>Jonathan Alves dos Santos</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="card-content">
+                        <div class="contact-info">
+                            <div class="contact-detail">
+                                <img src="assets/images/location.svg" alt="Ícone de Localização" class="contact-svg-icon">
+                                <a href="https://www.google.com/maps/search/?api=1&query=Avenida+Castelo+Branco,1046,+Pioneiros,+Pimenta+Bueno,+RO" target="_blank" class="map-link">
+                                    <span>Avenida Castelo Branco, 1046, Bairro: Pioneiros, CEP: 76970-000</span>
+                                </a>
+                            </div>
+                            <div class="contact-detail">
+                                <a href="https://wa.me/5569981560146" target="_blank" class="whatsapp-link">
+                                    <img src="assets/images/whatsapp-icon.svg" alt="WhatsApp Icon" class="whatsapp-svg-icon">
+                                    <span>(69) 98156-0146</span>
+                                </a>
+                            </div>
+                            <div class="contact-detail">
+                                <img src="assets/images/email.svg" alt="Ícone de E-mail" class="contact-svg-icon">
+                                <a href="mailto:obraseposturas@pimentabueno.ro.gov.br" class="mail-link">
+                                    <span>obraseposturas@pimentabueno.ro.gov.br</span>
+                                </a>
+                            </div>
+                            <div class="contact-detail">
+                                <img src="assets/images/clock.svg" alt="Ícone de Horário" class="contact-svg-icon">
+                                <span>Segunda a sexta-feira das 7:30 às 13:30</span>
+                            </div>
+                        </div>
+
+                        <div class="competencies">
+                            <h4>Competências:</h4>
+                            <ul class="competencies-list">
+                                <li>Atuar nas ações relativas a Obras e Posturas no âmbito do município com vistas a uma cidade sustentável;</li>
+                                <li>Programar e coordenar a execução da política urbanística do município;</li>
+                                <li>Analisar, aprovar e fiscalizar projetos e a execução de edificações, construções;</li>
+                                <li>Orientar e executar atividades de planejamento físico do município;</li>
+                                <li>Apoiar a fiscalização do cumprimento das posturas municipais relativas a construções;</li>
+                                <li>Supervisionar o cumprimento das normas relativas ao zoneamento e uso do solo;</li>
+                                <li>Coordenar as atividades de fiscalização de obras, posturas, funcionamento de estabelecimentos;</li>
+                                <li>Coordenar as atividades de fiscalização de propagandas, placas e anúncios;</li>
+                                <li>Supervisionar o cumprimento do Código de Posturas Municipal;</li>
+                                <li>Orientar as pessoas quanto ao cumprimento da legislação;</li>
+                                <li>Apurar as denúncias e elaborar relatório sobre as providências adotadas.</li>
+                            </ul>
+                            <h4>Serviços Prestados:</h4>
+                            <ul class="competencies-list">
+                                <li>Consulta de Viabilidade para Instalação e Alterações de Empresas</li>
+                                <li>Certidão de Postura</li>
+                                <li>Alvará de Localização e Funcionamento</li>
+                                <li>Licenciamento de Localização e Funcionamento Condicionado</li>
+                                <li>Licença de Funcionamento Provisório</li>
+                                <li>Licença Especial para Atividades sem Estabelecimento</li>
+                                <li>Autorização do Uso do Solo Público</li>
+                                <li>Autorização de Publicidade</li>
+                                <li>Alvará de Construção e Habite-se</li>
+                                <li>Atendimento de Denúncias</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="arquitetura-engenharia" class="department-section">
+                <div class="department-card">
+                    <div class="card-header">
+                        <div class="card-header-content">
+                            <div class="card-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-drafting-compass"><circle cx="12" cy="5" r="2"/><path d="m3 21 8.02-14.26"/><path d="m12.99 6.74 1.93 3.44"/><path d="M19 12c-3.87 4-10.13 4-14 0"/><path d="m21 21-2.16-3.84"/></svg>
+                            </div>
+                            <div class="card-title-section">
+                                <h2 class="card-title">SUPERINTENDÊNCIA DE ARQUITETURA, ENGENHARIA E TOPOGRAFIA</h2>
+                                <div class="card-director">
+                                    <i data-lucide="user"></i>
+                                    <span>João Batista Souto Junior</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="card-content">
+                        <div class="competencies">
+                            <h4>Competências:</h4>
+                            <ul class="competencies-list">
+                                <li>Identificar, avaliar e definir estratégias para o desempenho da equipe;</li>
+                                <li>Gerenciar e monitorar os resultados;</li>
+                                <li>Dar suporte operacional;</li>
+                                <li>Definir e orientar no alcance das metas da equipe;</li>
+                                <li>Garantir a confiabilidade das informações na análise nos resultados;</li>
+                                <li>Responsabilidade técnica;</li>
+                                <li>Gerenciar, coordenar e realizar orientação técnica, auxiliar e realizar estudos, planejamento, projeto e especificação;</li>
+                                <li>Realizar estudo de viabilidade técnico-econômica;</li>
+                                <li>Prestar assistência, assessoria e consultoria;</li>
+                                <li>Gerenciar, coordenar a direção de obra e serviço técnico;</li>
+                                <li>Conferir vistoria, perícia, avaliação, arbitramento, laudo e parecer técnico;</li>
+                                <li>Elaborar orçamento, planilha;</li>
+                                <li>Acompanhar a execução de obra e serviço técnico;</li>
+                                <li>Supervisionar, coordenar e realizar a fiscalização de obra e serviço técnico;</li>
+                                <li>Auxiliar e elaborar anteprojetos e projetos arquitetônicos;</li>
+                                <li>Buscar soluções alternativas para projetos, especificações e orçamentos de obras;</li>
+                                <li>Acompanhar e auxiliar procedimentos licitatórios de obras e serviços;</li>
+                                <li>Realizar atividades de apoio relacionadas a perícias, análise de documentos;</li>
+                                <li>Gerenciar convênios, contratos, projetos e atividades de arquitetura, urbanismo e engenharia.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="planejamento-orcamento" class="department-section">
+                <div class="department-card">
+                    <div class="card-header">
+                        <div class="card-header-content">
+                            <div class="card-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chart-line"><path d="M3 3v18h18"/><path d="m19 9-5 5-4-4-3 3"/></svg>
+                            </div>
+                            <div class="card-title-section">
+                                <h2 class="card-title">SUPERINTENDÊNCIA DE PLANEJAMENTO, ORÇAMENTO</h2>
+                                <div class="card-director">
+                                    <i data-lucide="user"></i>
+                                    <span>Uelinton Cassio Moura Ramos</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="card-content">
+                        <div class="competencies">
+                            <h4>Competências:</h4>
+                            <ul class="competencies-list">
+                                <li>Elaborar o Planejamento Estratégico Municipal Identidade Organizacional, Matriz SWOT, Plano de Ação, Metas e Indicadores;</li>
+                                <li>Elaborar, Alterar e Revisar os Instrumentos de Planejamento do Município;</li>
+                                <li>Criar mecanismos de acompanhamentos e o monitoramento dos objetivos, metas e indicadores de resultados;</li>
+                                <li>Elaborar as Projeções de Receita Municipal;</li>
+                                <li>Elaborar cenários estatísticos da evolução da Receita Prevista, Realizada e Projetada;</li>
+                                <li>Elaborar cenários estatísticos da evolução da Despesas Prevista, Realizada e Projetada;</li>
+                                <li>Elaborar mecanismos e metodologias de monitoramento da receita;</li>
+                                <li>Criar o roteiro de elaboração dos Instrumentos de Planejamento;</li>
+                                <li>Desenvolver metodologias de capacitação e/ou nivelamento da equipe multissetorial;</li>
+                                <li>Elaboração do Plano de comunicação com a sociedade quanto a elaboração participativa dos instrumentos de Planejamento;</li>
+                                <li>Desenvolver com as Secretarias o Plano de Trabalho Anual e métricas para o Plano de Desenvolvimento do Município;</li>
+                                <li>Coordenar a elaboração do cronograma de desembolso da administração direta e Indireta;</li>
+                                <li>Coordenar a elaboração da programação financeira em conjunto com o Departamento de Finanças;</li>
+                                <li>Zelar sempre pelo alcance de eficiência, eficácia e efetividade na consecução dos propósitos organizacionais;</li>
+                                <li>Promover a integração com os demais órgãos e secretarias da administração pública municipal.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="coordenadoria-planejamento" class="department-section">
+                <div class="department-card">
+                    <div class="card-header">
+                        <div class="card-header-content">
+                            <div class="card-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-clipboard-list"><rect width="8" height="4" x="8" y="2" rx="1" ry="1"/><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/><path d="M12 11h4"/><path d="M12 16h4"/><path d="M8 11h.01"/><path d="M8 16h.01"/></svg>
+                            </div>
+                            <div class="card-title-section">
+                                <h2 class="card-title">COORDENADORIA DE PLANEJAMENTO</h2>
+                                <div class="card-director">
+                                    <i data-lucide="user"></i>
+                                    <span>Karina Andrade Ribeiro</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="card-content">
+                        <div class="competencies">
+                            <h4>Competências:</h4>
+                            <ul class="competencies-list">
+                                <li>Supervisionar a elaboração de programas de treinamento, aperfeiçoamento e avaliação funcional do pessoal da secretaria;</li>
+                                <li>Manter controle dos contratos e convênios firmados no âmbito da secretaria;</li>
+                                <li>Elaborar propostas de atividades anuais da secretaria em conjuntos com os demais coordenadores;</li>
+                                <li>Coordenar as políticas de gestão de pessoas da secretaria;</li>
+                                <li>Realizar estudos e pareceres dentro da área de abrangência, bem como junto ao ministério público, TCE-RO e demais órgãos quando solicitado;</li>
+                                <li>Elaborar relatório de gestão e demais relatórios que se fizerem necessários para a elaboração de projetos, prestação de contas e outros;</li>
+                                <li>Administrar patrimônio, informações, recursos financeiros e orçamentários;</li>
+                                <li>Elaboração e planejamento orçamentário da secretaria;</li>
+                                <li>Gerir recursos tecnológicos;</li>
+                                <li>Administrar sistemas, processos, organização e métodos;</li>
+                                <li>Controlar as informações referentes a frota da secretaria;</li>
+                                <li>Realizar prestação de contas periodicamente;</li>
+                                <li>Revisar normas e procedimentos;</li>
+                                <li>Acompanhar a execução dos programas previstos no orçamento da secretaria;</li>
+                                <li>Executar tarefas e missões que lhe forem determinadas.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="divisao-iptu" class="department-section">
+                <div class="department-card">
+                    <div class="card-header">
+                        <div class="card-header-content">
+                            <div class="card-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-calculator"><rect width="16" height="20" x="4" y="2" rx="2"/><line x1="8" x2="16" y1="6" y2="6"/><line x1="16" x2="16" y1="14" y2="18"/><path d="M16 10h.01"/><path d="M12 10h.01"/><path d="M8 10h.01"/><path d="M12 14h.01"/><path d="M8 14h.01"/><path d="M12 18h.01"/><path d="M8 18h.01"/></svg>
+                            </div>
+                            <div class="card-title-section">
+                                <h2 class="card-title">DIVISÃO DE IMPOSTO PREDIAL TERRITORIAL URBANO - IPTU</h2>
+                                <div class="card-director">
+                                    <i data-lucide="user"></i>
+                                    <span>Bruna Tauana Berndt Souza</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="card-content">
+                        <div class="competencies">
+                            <h4>Competências:</h4>
+                            <ul class="competencies-list">
+                                <li>Auxiliar no gerenciamento do departamento, nas atividades de cadastro imobiliário, de IPTU, ITBI, Taxas de Prestação de Serviços, Contribuição de Melhoria e de Dívida Ativa;</li>
+                                <li>Coordenar o processo de cálculos, lançamento, emissão e entrega de conhecimentos, controle, registro e baixa pelo pagamento de Tributos Municipais;</li>
+                                <li>Coordenar as atividades de manutenção e atualização da Planta de Valores de Imóveis do Município, com informações relativas aos valores praticados;</li>
+                                <li>Outras atividades afins.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="elaboracao-projetos" class="department-section">
+                <div class="department-card">
+                    <div class="card-header">
+                        <div class="card-header-content">
+                            <div class="card-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-blueprint"><rect width="18" height="13" x="3" y="8" rx="2"/><path d="M3 8V6a2 2 0 0 1 2-2h6l2 2h6a2 2 0 0 1 2 2v2"/><path d="M8 8v4"/><path d="M16 8v4"/></svg>
+                            </div>
+                            <div class="card-title-section">
+                                <h2 class="card-title">COORDENADORIA DE ELABORAÇÃO DE PROJETOS</h2>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="card-content">
+                        <div class="competencies">
+                            <h4>Competências:</h4>
+                            <ul class="competencies-list">
+                                <li>Coordenar e executar, projetos de construção civil básica e avançada e afins para a adequada implantação da infraestrutura pública;</li>
+                                <li>Executar e Auxiliar na elaboração de Projetos e Obras de construção e reformas, reparos, renovação ou ampliação dos espaços arquitetônicos dos imóveis municipais;</li>
+                                <li>Elaborar especificações de obras, de serviços, de equipamentos elétricos, eletroeletrônicos e hidráulicos e de materiais para construção em geral;</li>
+                                <li>Elaborar orçamentos de referência diversos, incluindo os de obras e serviços de engenharia;</li>
+                                <li>Elaborar, atualizar, acompanhar e gerir o plano de manutenção de edificações e das instalações elétricas e hidráulicas;</li>
+                                <li>Elaborar projetos e estudos de engenharia elétrica e engenharia civil;</li>
+                                <li>Coordenar a elaboração de projetos complementares para obras de engenharia;</li>
+                                <li>Fiscalizar obras e serviços de engenharia contratados e supervisionar, coordenar, orientar e fiscalizar tecnicamente os serviços de Engenharia contratados;</li>
+                                <li>Supervisionar, coordenar e executar, diretamente ou por intermédio de terceiros, no âmbito do complexo arquitetônico e urbanístico do município;</li>
+                                <li>Manter documentação iconográfica edilícia e demais documentos técnicos atualizados;</li>
+                                <li>Coordenar as ações interdepartamentais e interinstitucionais relacionadas aos temas que tratam de patrimônio edificado;</li>
+                                <li>Coordenar os servidores subordinados, podendo distribuir tarefas e delegar funções.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-left">
+                    <div class="footer-title">
+                        <div class="footer-icon">
+                            <img src="assets/images/brasao.png" alt="Brasão da Prefeitura" style="width: 2rem; height: 2rem;">
+                        </div>
+                        <div>
+                            <h3>Prefeitura de Pimenta Bueno</h3>
+                            <p>SEMPLAN - Planejamento Municipal</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="footer-right">
+                    <div class="footer-contact">
+                        <i data-lucide="map-pin"></i>
+                        <a href="https://www.google.com/maps/search/?api=1&query=Avenida+Castelo+Branco,1046,+Pioneiros,+Pimenta+Bueno,+RO" target="_blank" class="map-link">
+                            <span>Av. Castelo Branco, 1046 - Pimenta Bueno–RO</span>
+                        </a>
+                    </div>
+                    
+                    <div class="footer-contact">
+                        <a href="https://wa.me/5569981630011" target="_blank" class="whatsapp-link">
+                            <img src="assets/images/whatsapp-icon.svg" alt="WhatsApp Icon" class="whatsapp-svg-icon">
+                            <span>(69) 98163-0011</span>
+                        </a>
+                    </div><!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prefeitura de Pimenta Bueno - EMSAU</title>
+    <meta name="description" content="Secretaria Municipal de Saúde da Prefeitura de Pimenta Bueno - RO. Informações sobre departamentos, competências e atendimento ao cidadão.">
+    <meta name="author" content="Prefeitura de Pimenta Bueno">
+    
+    <link rel="icon" type="image/png" href="assets/images/brasao.png">
+    
+    <meta property="og:title" content="Prefeitura de Pimenta Bueno - EMSAU">
+    <meta property="og:description" content="Secretaria Municipal de Saúde da Prefeitura de Pimenta Bueno - RO">
+    <meta property="og:type" content="website">
+    
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+    
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="header-background-image"></div>
+        <div class="container">
+            <div class="header-content">
+                <div class="header-title-section">
+                    <div class="header-icon-title">
+                        <div class="header-icon">
+                            <img src="assets/images/brasao.png" alt="Brasão da Prefeitura" style="width: 2.5rem; height: 2.5rem;">
+                        </div>
+                        <div>
+                            <h1>PREFEITURA DO MUNICÍPIO DE PIMENTA BUENO</h1>
+                            <p class="header-subtitle">EMSAU - CARTA DE SERVIÇOS</p>
+                        </div>
+                    </div>
+                    
+                    <div class="main-cta">
+                        <p class="cta-text">Acesse nossas redes sociais e site da prefeitura:</p>
+                        <div class="cta-buttons">
+                            <a href="https://pimentabueno.ro.gov.br/site/" target="_blank" class="cta-button">
+                                <img src="assets/images/site.svg" alt="Ícone Site" class="cta-svg-icon">
+                                Site Oficial
+                            </a>
+                            <a href="https://www.facebook.com/PrefeituradePimentaBueno" target="_blank" class="cta-button">
+                                <img src="assets/images/facebook.svg" alt="Ícone Facebook" class="cta-svg-icon">
+                                Facebook
+                            </a>
+                            <a href="https://www.instagram.com/prefeiturapb/" target="_blank" class="cta-button">
+                                <img src="assets/images/instagram.svg" alt="Ícone Instagram" class="cta-svg-icon">
+                                Instagram
+                            </a>
+                            <a href="https://www.youtube.com/@PrefeituradePimentaBueno" target="_blank" class="cta-button">
+                                <img src="assets/images/youtube.svg" alt="Ícone YouTube" class="cta-svg-icon">
+                                YouTube
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-grid">
+                    <div class="contact-item">
+                        <i data-lucide="map-pin"></i>
+                        <a href="https://www.google.com/maps/search/?api=1&query=Av.+Pinheiro+Machado,+316,+Pioneiros,+Pimenta+Bueno,+RO" target="_blank" class="map-link">
+                            <span>Av. Pinheiro Machado, 316, Bairro: Pioneiros, CEP: 76970-000</span>
+                        </a>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <a href="https://wa.me/5569981699991" target="_blank" class="whatsapp-link">
+                            <img src="assets/images/whatsapp-icon.svg" alt="WhatsApp Icon" class="whatsapp-svg-icon">
+                            <span>(69) 98169-9991</span>
+                        </a>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i data-lucide="mail"></i>
+                        <a href="mailto:semsau@pimentabueno.ro.gov.br" class="mail-link">
+                            <span>semsau@pimentabueno.ro.gov.br</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="container">
+            <section id="emsau-sede" class="department-section">
+                <div class="department-card">
+                    <div class="card-header">
+                        <div class="card-header-content">
+                            <div class="card-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-heart-pulse"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/><path d="M12 5L8 21l4-7 4 7-4-16"/></svg>
+                            </div>
+                            <div class="card-title-section">
+                                <h2 class="card-title">EMSAU: SEDE ADMINISTRATIVA</h2>
+                                <div class="card-director">
+                                    <i data-lucide="user"></i>
+                                    <span>Andreia Ferreira Sampaio</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="card-content">
+                        <div class="contact-info">
+                            <div class="contact-detail">
+                                <img src="assets/images/location.svg" alt="Ícone de Localização" class="contact-svg-icon">
+                                <a href="https://www.google.com/maps/search/?api=1&query=Av.+Pinheiro+Machado,+316,+Pioneiros,+Pimenta+Bueno,+RO" target="_blank" class="map-link">
+                                    <span>Av. Pinheiro Machado, 316, Bairro: Pioneiros, CEP: 76970-000</span>
+                                </a>
+                            </div>
+                            <div class="contact-detail">
+                                <a href="https://wa.me/5569981699991" target="_blank" class="whatsapp-link">
+                                    <img src="assets/images/whatsapp-icon.svg" alt="WhatsApp Icon" class="whatsapp-svg-icon">
+                                    <span>(69) 98169-9991</span>
+                                </a>
+                            </div>
+                            <div class="contact-detail">
+                                <img src="assets/images/email.svg" alt="Ícone de E-mail" class="contact-svg-icon">
+                                <a href="mailto:semsau@pimentabueno.ro.gov.br" class="mail-link">
+                                    <span>semsau@pimentabueno.ro.gov.br</span>
+                                </a>
+                            </div>
+                            <div class="contact-detail">
+                                <img src="assets/images/clock.svg" alt="Ícone de Horário" class="contact-svg-icon">
+                                <span>Segunda a sexta-feira das 7:30 às 13:30</span>
+                            </div>
+                        </div>
+
+                        <div class="competencies">
+                            <h4>Atribuições do Secretário:</h4>
+                            <ul class="competencies-list">
+                                <li>Exercer a administração da Secretaria Municipal de Saúde, praticando todos os atos necessários à gestão;</li>
+                                <li>Praticar os atos pertinentes às atribuições que lhe forem outorgadas ou delegadas pelo Chefe do Poder Executivo Municipal;</li>
+                                <li>Expedir instruções, portarias e outros atos normativos necessários à boa execução das leis, decretos e regulamentos;</li>
+                                <li>Exercer a gestão do Sistema Municipal de Saúde;</li>
+                                <li>Gerir o Fundo Municipal de Saúde, em conjunto com o Superintendente de Administração;</li>
+                                <li>Gerir os recursos financeiros e orçamentários repassados pelo Fundo Nacional de Saúde;</li>
+                                <li>Exercer outras atividades compatíveis com a natureza de suas funções.</li>
+                            </ul>
+                            <h4>Competências da Secretaria Municipal de Saúde:</h4>
+                            <ul class="competencies-list">
+                                <li>A formulação de políticas de saúde conforme os princípios norteadores do Sistema Único de Saúde;</li>
+                                <li>A coordenação, supervisão e execução de programas, projetos, atividades e ações vinculadas ao Sistema Único de Saúde;</li>
+                                <li>A gestão do Fundo Municipal de Saúde, conforme a sua lei de criação;</li>
+                                <li>A prestação de serviços de saúde à população no que tange à prevenção de doenças e a promoção da saúde coletiva;</li>
+                                <li>A execução de atividades integradas de assistência, prevenção e vigilância alimentar e nutricional;</li>
+                                <li>A implementação e fiscalização de políticas relativas à saúde pública e de controle de vetores;</li>
+                                <li>A implantação da Política de Humanização do Atendimento;</li>
+                                <li>A regulação, controle, avaliação e auditoria dos prestadores de serviços hospitalares;</li>
+                                <li>O planejamento, controle e garantia do suprimento de medicamentos e insumos;</li>
+                                <li>A prestação do suporte técnico e administrativo ao Conselho Municipal de Saúde.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="conselho-saude" class="department-section">
+                <div class="department-card">
+                    <div class="card-header">
+                        <div class="card-header-content">
+                            <div class="card-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-users"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                            </div>
+                            <div class="card-title-section">
+                                <h2 class="card-title">CONSELHO MUNICIPAL DE SAÚDE</h2>
+                                <div class="card-director">
+                                    <i data-lucide="user"></i>
+                                    <span>Renato Mendes (Presidente)</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="card-content">
+                        <div class="contact-info">
+                            <div class="contact-detail">
+                                <img src="assets/images/location.svg" alt="Ícone de Localização" class="contact-svg-icon">
+                                <a href="https://www.google.com/maps/search/?api=1&query=Av.+Pinheiro+Machado,+316,+Pioneiros,+Pimenta+Bueno,+RO" target="_blank" class="map-link">
+                                    <span>Av. Pinheiro Machado, 316, Bairro: Pioneiros, CEP: 76970-000</span>
+                                </a>
+                            </div>
+                            <div class="contact-detail">
+                                <a href="https://wa.me/5569981699991" target="_blank" class="whatsapp-link">
+                                    <img src="assets/images/whatsapp-icon.svg" alt="WhatsApp Icon" class="whatsapp-svg-icon">
+                                    <span>(69) 98169-9991</span>
+                                </a>
+                            </div>
+                            <div class="contact-detail">
+                                <img src="assets/images/email.svg" alt="Ícone de E-mail" class="contact-svg-icon">
+                                <a href="mailto:cms@pimentabueno.ro.gov.br" class="mail-link">
+                                    <span>cms@pimentabueno.ro.gov.br</span>
+                                </a>
+                            </div>
+                            <div class="contact-detail">
+                                <img src="assets/images/clock.svg" alt="Ícone de Horário" class="contact-svg-icon">
+                                <span>Segunda a sexta-feira das 7:30 às 13:30</span>
+                            </div>
+                        </div>
+
+                        <div class="competencies">
+                            <h4>Competências:</h4>
+                            <ul class="competencies-list">
+                                <li>Possui o dever de fiscalizar e deliberar a implementação das políticas de saúde no município;</li>
+                                <li>Acompanhar e deliberar sobre o plano municipal de saúde e demais instrumentos de planejamento preconizados pelo SUS;</li>
+                                <li>Fiscalizar alterações orçamentárias no âmbito da saúde;</li>
+                                <li>Controlar a execução da política de saúde na instância correspondente;</li>
+                                <li>Deliberar sobre questões de interesse da saúde pública municipal.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="fundo-saude" class="department-section">
+                <div class="department-card">
+                    <div class="card-header">
+                        <div class="card-header-content">
+                            <div class="card-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-wallet"><path d="M19 7V4a1 1 0 0 0-1-1H5a2 2 0 0 0 0 4h12a2 2 0 0 1 0 4H5a2 2 0 0 0 0 4h12a2 2 0 0 0 2-2v-3"/><path d="M20 12v.01"/></svg>
+                            </div>
+                            <div class="card-title-section">
+                                <h2 class="card-title">FUNDOS MUNICIPAIS DE SAÚDE</h2>
+                                <div class="card-director">
+                                    <i data-lucide="user"></i>
+                                    <span>Juliene Macedo Rodrigues</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="card-content">
+                        <div class="contact-info">
+                            <div class="contact-detail">
+                                <img src="assets/images/location.svg" alt="Ícone de Localização" class="contact-svg-icon">
+                                <a href="https://www.google.com/maps/search/?api=1&query=Av.+Pinheiro+Machado,+316,+Pioneiros,+Pimenta+Bueno,+RO" target="_blank" class="map-link">
+                                    <span>Av. Pinheiro Machado, 316, Bairro: Pioneiros, CEP: 76970-000</span>
+                                </a>
+                            </div>
+                            <div class="contact-detail">
+                                <a href="https://wa.me/5569981699991" target="_blank" class="whatsapp-link">
+                                    <img src="assets/images/whatsapp-icon.svg" alt="WhatsApp Icon" class="whatsapp-svg-icon">
+                                    <span>(69) 98169-9991</span>
+                                </a>
+                            </div>
+                            <div class="contact-detail">
+                                <img src="assets/images/email.svg" alt="Ícone de E-mail" class="contact-svg-icon">
+                                <a href="mailto:fms@pimentabueno.ro.gov.br" class="mail-link">
+                                    <span>fms@pimentabueno.ro.gov.br</span>
+                                </a>
+                            </div>
+                            <div class="contact-detail">
+                                <img src="assets/images/clock.svg" alt="Ícone de Horário" class="contact-svg-icon">
+                                <span>Segunda a sexta-feira das 7:30 às 13:30</span>
+                            </div>
+                        </div>
+
+                        <div class="competencies">
+                            <h4>Competências:</h4>
+                            <ul class="competencies-list">
+                                <li>Assessoramento nos projetos de interesse da Secretaria Municipal de Saúde;</li>
+                                <li>Coordenação das atividades de execução orçamentária, extra-orçamentária, financeira e contábil do Fundo Municipal de Saúde;</li>
+                                <li>Elaboração da Programação de recursos orçamentários juntamente com o Secretário Municipal de Saúde;</li>
+                                <li>Supervisão e elaboração de balancetes, balanços demonstrativos gerais de gestão orçamentária, financeira e patrimonial;</li>
+                                <li>Prestação contas periodicamente;</li>
+                                <li>Controle e acompanhamento da execução financeira dos recursos da saúde.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="atencao-basica" class="department-section">
+                <div class="department-card">
+                    <div class="card-header">
+                        <div class="card-header-content">
+                            <div class="card-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-stethoscope"><path d="M4.8 2.3A.3.3 0 1 0 5 2H4a2 2 0 0 0-2 2v5a6 6 0 0 0 6 6v0a6 6 0 0 0 6-6V4a2 2 0 0 0-2-2h-1a.2.2 0 1 0 .3.3"/><path d="M8 15v1a6 6 0 0 0 6 6v0a6 6 0 0 0 6-6v-4"/><circle cx="20" cy="10" r="2"/></svg>
+                            </div>
+                            <div class="card-title-section">
+                                <h2 class="card-title">COORDENAÇÃO DA ATENÇÃO BÁSICA</h2>
+                                <div class="card-director">
+                                    <i data-lucide="user"></i>
+                                    <span>Tailane dos Santos de Oliveira</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="card-content">
+                        <div class="contact-info">
+                            <div class="contact-detail">
+                                <img src="assets/images/location.svg" alt="Ícone de Localização" class="contact-svg-icon">
+                                <a href="https://www.google.com/maps/search/?api=1&query=Av.+Presidente+Dutra,+654,+Pioneiros,+Pimenta+Bueno,+RO" target="_blank" class="map-link">
+                                    <span>Av. Presidente Dutra, 654, Bairro: Pioneiros, CEP: 76970-000</span>
+                                </a>
+                            </div>
+                            <div class="contact-detail">
+                                <a href="https://wa.me/5569992685171" target="_blank" class="whatsapp-link">
+                                    <img src="assets/images/whatsapp-icon.svg" alt="WhatsApp Icon" class="whatsapp-svg-icon">
+                                    <span>(69) 99268-5171</span>
+                                </a>
+                            </div>
+                            <div class="contact-detail">
+                                <img src="assets/images/email.svg" alt="Ícone de E-mail" class="contact-svg-icon">
+                                <a href="mailto:redebasicapb@gmail.com" class="mail-link">
+                                    <span>redebasicapb@gmail.com</span>
+                                </a>
+                            </div>
+                            <div class="contact-detail">
+                                <img src="assets/images/clock.svg" alt="Ícone de Horário" class="contact-svg-icon">
+                                <span>Segunda a sexta-feira das 7:30 às 13:30</span>
+                            </div>
+                        </div>
+
+                        <div class="competencies">
+                            <h4>Competências:</h4>
+                            <ul class="competencies-list">
+                                <li>Coordenar e supervisionar as atividades executadas pelas Equipes de Saúde da Família-ESF;</li>
+                                <li>Coordenar e supervisionar os serviços executados pelas Equipes de Saúde Bucal- ESB;</li>
+                                <li>Coordenar o Programa de Atenção à Saúde no Sistema Penitenciário;</li>
+                                <li>Monitorar indicadores de saúde da atenção básica;</li>
+                                <li>Articular ações entre as unidades básicas de saúde;</li>
+                                <li>Promover educação permanente para as equipes de saúde.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="ubs-frei-silvestre" class="department-section">
+                <div class="department-card">
+                    <div class="card-header">
+                        <div class="card-header-content">
+                            <div class="card-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-home"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+                            </div>
+                            <div class="card-title-section">
+                                <h2 class="card-title">UBS FREI SILVESTRE</h2>
+                                <div class="card-director">
+                                    <i data-lucide="user"></i>
+                                    <span>Cristiane da Silva Moraes</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="card-content">
+                        <div class="contact-info">
+                            <div class="contact-detail">
+                                <img src="assets/images/location.svg" alt="Ícone de Localização" class="contact-svg-icon">
+                                <a href="https://www.google.com/maps/search/?api=1&query=Avenida+Vitória,+1072,+Nova+Pimenta,+Pimenta+Bueno,+RO" target="_blank" class="map-link">
+                                    <span>Avenida Vitória, 1.072, Bairro: Nova Pimenta, CEP: 76970-000</span>
+                                </a>
+                            </div>
+                            <div class="contact-detail">
+                                <a href="https://wa.me/5569981699987" target="_blank" class="whatsapp-link">
+                                    <img src="assets/images/whatsapp-icon.svg" alt="WhatsApp Icon" class="whatsapp-svg-icon">
+                                    <span>(69) 98169-9987</span>
+                                </a>
+                            </div>
+                            <div class="contact-detail">
+                                <img src="assets/images/email.svg" alt="Ícone de E-mail" class="contact-svg-icon">
+                                <a href="mailto:ubsfreisilvestre@gmail.com" class="mail-link">
+                                    <span>ubsfreisilvestre@gmail.com</span>
+                                </a>
+                            </div>
+                            <div class="contact-detail">
+                                <img src="assets/images/clock.svg" alt="Ícone de Horário" class="contact-svg-icon">
+                                <span>Segunda a sexta-feira das 7:00 às 17:00</span>
+                            </div>
+                        </div>
+
+                        <div class="competencies">
+                            <h4>Serviços Prestados:</h4>
+                            <ul class="competencies-list">
+                                <li>Coleta de Preventivo</li>
+                                <li>Consulta Médica</li>
+                                <li>Consulta com enfermagem</li>
+                                <li>Fisioterapia</li>
+                                <li>Imunização</li>
+                                <li>Odontologia</li>
+                                <li>Planejamento Familiar</li>
+                                <li>Pré-Natal</li>
+                                <li>Programa de Controle de Hanseníase, Leishmaniose e Tuberculose</li>
+                                <li>Puericultura</li>
+                                <li>Teste do Pezinho</li>
+                                <li>Psicologia</li>
+                                <li>Nutrição</li>
+                                <li>Serviço Social</li>
+                                <li>Educador Físico</li>
+                                <li>Atendimento Domiciliar</li>
+                            </ul>
+                            <h4>Documentos Necessários:</h4>
+                            <ul class="competencies-list">
+                                <li>CNS (Cartão Nacional de Saúde)</li>
+                                <li>Certidão de Nascimento</li>
+                                <li>Documento com foto</li>
+                                <li>Comprovante de residência</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="ubs-madre-teresa" class="department-section">
+                <div class="department-card">
+                    <div class="card-header">
+                        <div class="card-header-content">
+                            <div class="card-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-home"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+                            </div>
+                            <div class="card-title-section">
+                                <h2 class="card-title">UBS MADRE TERESA DE CALCUTÁ</h2>
+                                <div class="card-director">
+                                    <i data-lucide="user"></i>
+                                    <span>Vanessa Rodrigues Ferreira Rosa</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="card-content">
+                        <div class="contact-info">
+                            <div class="contact-detail">
+                                <img src="assets/images/location.svg" alt="Ícone de Localização" class="contact-svg-icon">
+                                <a href="https://www.google.com/maps/search/?api=1&query=Rua+Pinheiro+Machado,+316,+Pioneiros,+Pimenta+Bueno,+RO" target="_blank" class="map-link">
+                                    <span>Rua Pinheiro Machado, 316, Bairro: Pioneiros, CEP: 76970-000</span>
+                                </a>
+                            </div>
+                            <div class="contact-detail">
+                                <a href="https://wa.me/5569981699997" target="_blank" class="whatsapp-link">
+                                    <img src="assets/images/whatsapp-icon.svg" alt="WhatsApp Icon" class="whatsapp-svg-icon">
+                                    <span>(69) 98169-9997</span>
+                                </a>
+                            </div>
+                            <div class="contact-detail">
+                                <img src="assets/images/email.svg" alt="Ícone de E-mail" class="contact-svg-icon">
+                                <a href="mailto:ubsmadretereza@gmail.com" class="mail-link">
+                                    <span>ubsmadretereza@gmail.com</span>
+                                </a>
+                            </div>
+                            <div class="contact-detail">
+                                <img src="assets/images/clock.svg" alt="Ícone de Horário" class="contact-svg-icon">
+                                <span>Segunda a sexta-feira das 7:00 às 17:00</span>
+                            </div>
+                        </div>
+
+                        <div class="competencies">
+                            <h4>Serviços Prestados:</h4>
+                            <ul class="competencies-list">
+                                <li>Coleta de Preventivo</li>
+                                <li>Consulta Médica</li>
+                                <li>Consulta com enfermagem</li>
+                                <li>Fisioterapia</li>
+                                <li>Imunização</li>
+                                <li>Odontologia</li>
+                                <li>Planejamento Familiar</li>
+                                <li>Pré-Natal</li>
+                                <li>Programa de Controle de Hanseníase, Leishmaniose e Tuberculose</li>
+                                <li>Puericultura</li>
+                                <li>Psicologia</li>
+                                <li>Educador Físico</li>
+                                <li>Serviço Social</li>
+                                <li>Nutrição</li>
+                                <li>Teste do Pezinho</li>
+                                <li>Atendimento Domiciliar</li>
+                                <li>Centro de Atendimento ao Enfrentamento a COVID</li>
+                            </ul>
+                            <h4>Público Alvo:</h4>
+                            <ul class="competencies-list">
+                                <li>Usuários do SUS</li>
+                                <li>Demanda: Referenciada, espontânea e agendamento</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="hospital-ana-neta" class="department-section">
+                <div class="department-card">
+                    <div class="card-header">
+                        <div class="card-header-content">
+                            <div class="card-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-building-2"><path d="M6 22V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v18Z"/><path d="M6 12H4a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h2"/><path d="M18 9h2a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2h-2"/><path d="M10 6h4"/><path d="M10 10h4"/><path d="M10 14h4"/><path d="M10 18h4"/></svg>
+                            </div>
+                            <div class="card-title-section">
+                                <h2 class="card-title">HOSPITAL E MATERNIDADE MUNICIPAL ANA NETA</h2>
+                                <div class="card-director">
+                                    <i data-lucide="user"></i>
+                                    <span>Inês Santos Oliveira (Superintendente)</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="card-content">
+                        <div class="contact-info">
+                            <div class="contact-detail">
+                                <img src="assets/images/location.svg" alt="Ícone de Localização" class="contact-svg-icon">
+                                <a href="https://www.google.com/maps/search/?api=1&query=Avenida+JK,+62,+Alvorada,+Pimenta+Bueno,+RO" target="_blank" class="map-link">
+                                    <span>Avenida JK, n.º 62, Bairro: Alvorada</span>
+                                </a>
+                            </div>
+                            <div class="contact-detail">
+                                <a href="https://wa.me/5569981567140" target="_blank" class="whatsapp-link">
+                                    <img src="assets/images/whatsapp-icon.svg" alt="WhatsApp Icon" class="whatsapp-svg-icon">
+                                    <span>(69) 98156-7140</span>
+                                </a>
+                            </div>
+                            <div class="contact-detail">
+                                <img src="assets/images/email.svg" alt="Ícone de E-mail" class="contact-svg-icon">
+                                <a href="mailto:hmananeta@pimentabueno.ro.gov.br" class="mail-link">
+                                    <span>hmananeta@pimentabueno.ro.gov.br</span>
+                                </a>
+                            </div>
+                            <div class="contact-detail">
+                                <img src="assets/images/clock.svg" alt="Ícone de Horário" class="contact-svg-icon">
+                                <span>Urgências e emergências: 24 horas / Administração: 7h às 13h</span>
+                            </div>
+                        </div>
+
+                        <div class="competencies">
+                            <h4>Serviços Prestados:</h4>
+                            <ul class="competencies-list">
+                                <li>Urgência e Emergência</li>
+                                <li>Clínica Obstétrica</li>
+                                <li>Clínica Cirúrgica</li>
+                                <li>Clínica Pediátrica/Neonatal</li>
+                                <li>Raio X: Todos pacientes interno, externo e regulados pelas UBS</li>
+                                <li>Internações</li>
+                                <li>Avaliação de pequenos procedimentos Cirúrgicos com agendamento</li>
+                                <li>Serviço Social TFD (Tratamento Fora do Domicílio)</li>
+                            </ul>
+                            <h4>Horário de Visitas:</h4>
+                            <ul class="competencies-list">
+                                <li>Todos os dias das 13:00h às 14:00h</li>
+                            </ul>
+                            <h4>Documentos Necessários:</h4>
+                            <ul class="competencies-list">
+                                <li>CNS (Cartão Nacional de Saúde)</li>
+                                <li>Certidão de Nascimento e/ou documento com foto</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="farmacia-central" class="department-section">
+                <div class="department-card">
+                    <div class="card-header">
+                        <div class="card-header-content">
+                            <div class="card-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-pill"><path d="m10.5 20.5 10-10a4.95 4.95 0 1 0-7-7l-10 10a4.95 4.95 0 1 0 7 7Z"/><path d="m8.5 8.5 7 7"/></svg>
+                            </div>
+                            <div class="card-title-section">
+                                <h2 class="card-title">FARMÁCIA CENTRAL</h2>
+                                <div class="card-director">
+                                    <i data-lucide="user"></i>
+                                    <span>Anne Karine Vieira Santana</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="card-content">
+                        <div class="contact-info">
+                            <div class="contact-detail">
+                                <img src="assets/images/location.svg" alt="Ícone de Localização" class="contact-svg-icon">
+                                <a href="https://www.google.com/maps/search/?api=1&query=Av.+Presidente+Médici,+Alvorada,+Pimenta+Bueno,+RO" target="_blank" class="map-link">
+                                    <span>Av. Presidente Médici, s/nº, Bairro: Alvorada (Aos fundos do Hospital Ana Neta)</span>
+                                </a>
+                            </div>
+                            <div class="contact-detail">
+                                <a href="https://wa.me/5569981161791" target="_blank" class="whatsapp-link">
+                                    <img src="assets/images/whatsapp-icon.svg" alt="WhatsApp Icon" class="whatsapp-svg-icon">
+                                    <span>(69) 98116-1791</span>
+                                </a>
+                            </div>
+                            <div class="contact-detail">
+                                <img src="assets/images/email.svg" alt="Ícone de E-mail" class="contact-svg-icon">
+                                <a href="mailto:farmaciacentralpb@hotmail.com" class="mail-link">
+                                    <span>farmaciacentralpb@hotmail.com</span>
+                                </a>
+                            </div>
+                            <div class="contact-detail">
+                                <img src="assets/images/clock.svg" alt="Ícone de Horário" class="contact-svg-icon">
+                                <span>Segunda a sexta-feira das 7:00 às 18:00</span>
+                            </div>
+                        </div>
+
+                        <div class="competencies">
+                            <h4>Competências:</h4>
+                            <ul class="competencies-list">
+                                <li>Fornecimento de medicamentos disponíveis na relação municipal de medicamentos</li>
+                                <li>Atendimento ao usuário do município de Pimenta Bueno com prescrição médica</li>
+                                <li>Atendimento individualizado, mediante senha</li>
+                                <li>Atendimento do CEAF - Componente Especializado da Assistência Farmacêutica</li>
+                            </ul>
+                            <h4>Documentos Necessários para Cadastro:</h4>
+                            <ul class="competencies-list">
+                                <li>CNS – Cartão Nacional de Saúde</li>
+                                <li>RG</li>
+                                <li>CPF</li>
+                                <li>Comprovante de residência</li>
+                            </ul>
+                            <h4>Para Atendimento:</h4>
+                            <ul class="competencies-list">
+                                <li>CNS</li>
+                                <li>Nº do Cadastro da Farmácia</li>
+                                <li>Prescrição Médica da Rede Municipal</li>
+                                <li>Documento com foto</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="caps" class="department-section">
+                <div class="department-card">
+                    <div class="card-header">
+                        <div class="card-header-content">
+                            <div class="card-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-brain"><path d="M12 5a3 3 0 1 0-5.997.125 4 4 0 0 0-2.526 5.77 4 4 0 0 0 .556 6.588A4 4 0 1 0 12 18Z"/><path d="M12 5a3 3 0 1 1 5.997.125 4 4 0 0 1 2.526 5.77 4 4 0 0 1-.556 6.588A4 4 0 1 1 12 18Z"/><path d="M15 13a4.5 4.5 0 0 1-3-4 4.5 4.5 0 0 1-3 4"/><path d="M17.599 6.5a3 3 0 0 0 .399-1.375"/><path d="M6.003 5.125A3 3 0 0 0 6.401 6.5"/><path d="M3.477 10.896a4 4 0 0 1 .585-.396"/><path d="M19.938 10.5a4 4 0 0 1 .585.396"/><path d="M6 18a4 4 0 0 1-1.967-.516"/><path d="M19.967 17.484A4 4 0 0 1 18 18"/></svg>
+                            </div>
+                            <div class="card-title-section">
+                                <h2 class="card-title">CAPS I - CENTRO DE ATENÇÃO PSICOSSOCIAL</h2>
+                                <div class="card-director">
+                                    <i data-lucide="user"></i>
+                                    <span>Ágatha Emanuelli Petrino Arnaldo</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="card-content">
+                        <div class="contact-info">
+                            <div class="contact-detail">
+                                <img src="assets/images/location.svg" alt="Ícone de Localização" class="contact-svg-icon">
+                                <a href="https://www.google.com/maps/search/?api=1&query=Rua+Juarez+Távora,+254,+Seringal,+Pimenta+Bueno,+RO" target="_blank" class="map-link">
+                                    <span>Rua Juarez Távora, 254, Bairro: Seringal, CEP: 76970-000</span>
+                                </a>
+                            </div>
+                            <div class="contact-detail">
+                                <a href="https://wa.me/5569981135985" target="_blank" class="whatsapp-link">
+                                    <img src="assets/images/whatsapp-icon.svg" alt="WhatsApp Icon" class="whatsapp-svg-icon">
+                                    <span>(69) 98113-5985</span>
+                                </a>
+                            </div>
+                            <div class="contact-detail">
+                                <img src="assets/images/email.svg" alt="Ícone de E-mail" class="contact-svg-icon">
+                                <a href="mailto:caps.pimentabueno@gmail.com" class="mail-link">
+                                    <span>caps.pimentabueno@gmail.com</span>
+                                </a>
+                            </div>
+                            <div class="contact-detail">
+                                <img src="assets/images/clock.svg" alt="Ícone de Horário" class="contact-svg-icon">
+                                <span>Segunda a sexta-feira das 7:00 às 18:00</span>
+                            </div>
+                        </div>
+
+                        <div class="competencies">
+                            <h4>Competências:</h4>
+                            <ul class="competencies-list">
+                                <li>Garantir o atendimento a população do território, de todas as faixas etárias que apresentam prioritariamente intenso sofrimento psíquico;</li>
+                                <li>Atender problemas mentais graves e persistentes, incluindo aqueles relacionados ao uso prejudicial de álcool e outras drogas.</li>
+                            </ul>
+                            <h4>Serviços:</h4>
+                            <ul class="competencies-list">
+                                <li>Atendimento com médico especialista em psiquiatria</li>
+                                <li>Psicoterapia Individual</li>
+                                <li>Oficinas Terapêuticas</li>
+                                <li>Orientações e Acompanhamento do Serviço Social (aos pacientes do CAPS)</li>
+                                <li>Acolhimento e Orientação com enfermeiro</li>
+                                <li>Visita Domiciliar (quando necessário)</li>
+                            </ul>
+                            <h4>Documentos Necessários:</h4>
+                            <ul class="competencies-list">
+                                <li>CNS</li>
+                                <li>RG/CPF/Certidão de Nascimento</li>
+                                <li>Encaminhamento (original) ou transferência caso o paciente for encaminhado por uma Unidade de Saúde</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="vigilancia-sanitaria" class="department-section">
+                <div class="department-card">
+                    <div class="card-header">
+                        <div class="card-header-content">
+                            <div class="card-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-shield-check"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10"/><path d="m9 12 2 2 4-4"/></svg>
+                            </div>
+                            <div class="card-title-section">
+                                <h2 class="card-title">VIGILÂNCIA SANITÁRIA</h2>
+                                <div class="card-director">
+                                    <i data-lucide="user"></i>
+                                    <span>Pauliane Alves Fernandes</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="card-content">
+                        <div class="contact-info">
+                            <div class="contact-detail">
+                                <img src="assets/images/location.svg" alt="Ícone de Localização" class="contact-svg-icon">
+                                <a href="https://www.google.com/maps/search/?api=1&query=Av.+Presidente+Dutra,+654,+Pioneiros,+Pimenta+Bueno,+RO" target="_blank" class="map-link">
+                                    <span>Av. Presidente Dutra, 654, Bairro: Pioneiros, CEP: 76970-000</span>
+                                </a>
+                            </div>
+                            <div class="contact-detail">
+                                <a href="https://wa.me/5569981567077" target="_blank" class="whatsapp-link">
+                                    <img src="assets/images/whatsapp-icon.svg" alt="WhatsApp Icon" class="whatsapp-svg-icon">
+                                    <span>(69) 98156-7077</span>
+                                </a>
+                            </div>
+                            <div class="contact-detail">
+                                <img src="assets/images/email.svg" alt="Ícone de E-mail" class="contact-svg-icon">
+                                <a href="mailto:vigisaupb@hotmail.com" class="mail-link">
+                                    <span>vigisaupb@hotmail.com</span>
+                                </a>
+                            </div>
+                            <div class="contact-detail">
+                                <img src="assets/images/clock.svg" alt="Ícone de Horário" class="contact-svg-icon">
+                                <span>Segunda a sexta-feira das 7:30 às 13:30</span>
+                            </div>
+                        </div>
+
+                        <div class="competencies">
+                            <h4>Competências:</h4>
+                            <ul class="competencies-list">
+                                <li>Fiscalizar e controlar as construções e funcionamento de estabelecimentos comerciais, educacionais, recreativos e outros;</li>
+                                <li>Fiscalizar o exercício dos profissionais de saúde e ocupações afins, de imediato interesse de saúde pública;</li>
+                                <li>Promover o cadastro, licenciamento, fiscalização de locais de trabalho, bem como de aparelhos, equipamentos e outros sujeitos ao controle sanitário especial de saúde;</li>
+                                <li>Fiscalizar todos os estabelecimentos e unidades onde se desenvolvem quaisquer atividades ligadas à saúde: hospitais, laboratórios, farmácias, consultórios médicos e odontológicos, públicos ou privados;</li>
+                                <li>Inspecionar bares, restaurantes, lanchonetes, hotéis, laticínios, frigoríficos, etc.;</li>
+                                <li>Aplicar as sanções cabíveis às infrações sanitárias, conforme estabelecido no código de postura sanitária do município.</li>
+                            </ul>
+                            <h4>Público Alvo:</h4>
+                            <ul class="competencies-list">
+                                <li>Comércio Atacado e Varejo</li>
+                                <li>População em geral</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-left">
+                    <div class="footer-title">
+                        <div class="footer-icon">
+                            <img src="assets/images/brasao.png" alt="Brasão da Prefeitura" style="width: 2rem; height: 2rem;">
+                        </div>
+                        <div>
+                            <h3>Prefeitura de Pimenta Bueno</h3>
+                            <p>EMSAU - Secretaria Municipal de Saúde</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="footer-right">
+                    <div class="footer-contact">
+                        <i data-lucide="map-pin"></i>
+                        <a href="https://www.google.com/maps/search/?api=1&query=Av.+Pinheiro+Machado,+316,+Pioneiros,+Pimenta+Bueno,+RO" target="_blank" class="map-link">
+                            <span>Av. Pinheiro Machado, 316 - Pimenta Bueno–RO</span>
+                        </a>
+                    </div>
+                    
+                    <div class="footer-contact">
+                        <a href="https://wa.me/5569981699991" target="_blank" class="whatsapp-link">
+                            <img src="assets/images/whatsapp-icon.svg" alt="WhatsApp Icon" class="whatsapp-svg-icon">
+                            <span>(69) 98169-9991</span>
+                        </a>
+                    </div>
+                    
+                    <div class="footer-contact">
+                        <i data-lucide="mail"></i>
+                        <a href="mailto:semsau@pimentabueno.ro.gov.br" class="mail-link">
+                            <span>semsau@pimentabueno.ro.gov.br</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>© 2024 Prefeitura Municipal de Pimenta Bueno - Todos os direitos reservados</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
